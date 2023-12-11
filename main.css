@@ -65,3 +65,20 @@ input {
   padding: 10px;
   margin: 10px 0;
 }
+
+button {
+  background-color: #0ff;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.campoErrado {
+  color: rgb(189, 28, 28);
+  font-size: 1rem;
+}
