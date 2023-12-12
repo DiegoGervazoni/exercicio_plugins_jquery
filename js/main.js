@@ -35,8 +35,9 @@ $(document).ready(function () {
         '<span class="campoErrado">Por favor, insira o seu endereço</span>',
       cep: '<span class="campoErrado">Por favor, insira o seu CEP</span>',
     },
-    submiHandler: function (form) {
-      console.log(form);
+    submitHandler: function (form) {
+      form.submit();
+      alert("Formulário enviado com sucesso!");
     },
     invalidHandler: function (evento, validador) {
       let camposIncorretos = validador.numberOfInvalids();
